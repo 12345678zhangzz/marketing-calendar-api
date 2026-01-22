@@ -1,1 +1,49 @@
 name: Daily Marketing Calendar Update
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天 UTC 0点 (北京时间 8:00) 运行
+  workflow_dispatch:     # 允许手动按钮运行
+
+permissions:
+  contents: write        # 必须要有写入权限才能保存 JSON
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          # 尝试安装依赖，如果没有 requirements.txt 则安装常用库以防报错
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          else
+            echo "No requirements.txt found, installing default libs"
+            pip install requests pandas pytz
+          fi
+
+      - name: Run generator script
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        # 👇 这里必须和你上传的文件名一致
+        run: python marketing_calendar_generator.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          # 只有当有变化时才提交，避免报错
+          git commit -m "Auto update marketing calendar" || echo "No changes to commit"
+          git push
