@@ -1,963 +1,142 @@
 {
-  "date": "2026-01-22",
-  "generated_at": "2026-01-22T11:43:18.573786",
-  "total_events": 18,
-  "categories": {
-    "global_holidays": 1,
-    "youtube_trending": 15,
-    "web_trends": 0,
-    "competitor_updates": 2,
-    "industry_events": 0
-  },
-  "events": [
-    {
-      "id": "holiday_upcoming_01-23",
-      "event_name": "即将到来: 农历小年",
-      "event_name_en": "Upcoming: Chinese Little New Year",
-      "source": "global_holidays",
-      "date": "2026-01-23",
-      "type": [
-        "节日营销",
-        "提前预警"
-      ],
-      "priority": "高",
-      "regions": [
-        "中国",
-        "新加坡"
-      ],
-      "target_audience": "品牌营销人员、社交媒体运营者、内容创作者",
-      "alert_days": 1,
-      "marketing_copy": {
-        "zh": {
-          "headline": "🎨 即将到来: 农历小年 | Haimeta助你抢占节日营销先机",
-          "body": "把握即将到来: 农历小年营销窗口,用AI生成惊艳视觉内容。Haimeta提供海量模板,一键生成专业级节日海报、视频素材。",
-          "cta": "立即体验 →",
-          "hashtags": [
-            "#AI设计",
-            "#即将到来: 农历小年",
-            "#Haimeta"
-          ]
-        },
-        "en": {
-          "headline": "🎨 Upcoming: Chinese Little New Year | Create Stunning Visuals with Haimeta",
-          "body": "Leverage AI to create professional designs for Upcoming: Chinese Little New Year. Haimeta makes holiday marketing easy and impactful.",
-          "cta": "Try Now →",
-          "hashtags": [
-            "#AIDesign",
-            "#Upcoming:ChineseLittleNewYear",
-            "#Haimeta"
-          ]
-        }
-      },
-      "image_prompts": [
+    "date": "2026-01-22",
+    "total_events": 5,
+    "events": [
         {
-          "model": "Stable Diffusion XL (Hugging Face)",
-          "style": "即将到来: 农历小年主题,温馨节日氛围,现代扁平设计,明亮色彩",
-          "prompt_zh": "即将到来: 农历小年主题,温馨节日氛围,现代扁平设计,明亮色彩,高清,8K,专业设计,无文字",
-          "prompt_en": "Upcoming: Chinese Little New Year theme, festive atmosphere, modern flat design, vibrant colors, high quality, 8K, professional design, no text",
-          "hf_model_id": "stabilityai/stable-diffusion-xl-base-1.0",
-          "free_api": true,
-          "api_endpoint": "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0",
-          "usage_note": "复制prompt到Haimeta平台使用"
-        }
-      ]
-    },
-    {
-      "id": "youtube_oYhVvIqFNLw",
-      "event_name": "YouTube热门: Artists are fighting back against AI #animation #a...",
-      "event_name_en": "YouTube Trending: Artists are fighting back against AI #animation #a...",
-      "source": "youtube_trending",
-      "date": "2026-01-22",
-      "type": [
-        "用户行为",
-        "行业趋势"
-      ],
-      "priority": "中",
-      "regions": [
-        "全球"
-      ],
-      "target_audience": "AI创作者、设计师、科技爱好者",
-      "video_url": "https://youtube.com/watch?v=oYhVvIqFNLw",
-      "channel": "Sold",
-      "alert_days": 0,
-      "marketing_copy": {
-        "zh": {
-          "headline": "📊 YouTube热门: Artists are fighting back against AI #animation #a... | Haimeta AI创意工具",
-          "body": "抓住YouTube热门: Artists are fighting back against AI #animation #a...的机会,用Haimeta AI工具创作专业内容。",
-          "cta": "立即体验 →",
-          "hashtags": [
-            "#AI设计",
-            "#YouTube热门: Artists are fighting back against AI #animation #a...",
-            "#Haimeta"
-          ]
+            "id": "holiday_sample_1",
+            "event_name": "示例: 国际咖啡日",
+            "event_name_en": "International Coffee Day",
+            "date": "2026-01-22",
+            "type": [
+                "节日营销"
+            ],
+            "priority": "高",
+            "target_audience": "咖啡爱好者, 上班族",
+            "marketing_copy": {
+                "zh": {
+                    "headline": "☕️ 今天是国际咖啡日，来一杯续命！",
+                    "body": "用一杯香浓咖啡开启高效工作日..."
+                },
+                "en": {
+                    "headline": "Celebrate International Coffee Day!",
+                    "body": "Boost your day with a cup of joy..."
+                }
+            },
+            "image_prompts": [
+                {
+                    "prompt_zh": "一杯热气腾腾的拿铁, 阳光洒在木桌上, 高清摄影",
+                    "prompt_en": "Hot latte on wooden table, sunlight, photorealistic, 8k"
+                }
+            ]
         },
-        "en": {
-          "headline": "📊 YouTube Trending: Artists are fighting back against AI #animation #a... | Haimeta AI Creative Tools",
-          "body": "Seize the opportunity with Haimeta AI tools.",
-          "cta": "Try Now →",
-          "hashtags": [
-            "#AIDesign",
-            "#YouTubeTrending:ArtistsarefightingbackagainstAI#animation#a...",
-            "#Haimeta"
-          ]
-        }
-      },
-      "image_prompts": [
         {
-          "model": "Stable Diffusion XL (Hugging Face)",
-          "style": "科技感,未来主义,渐变配色,简约设计",
-          "prompt_zh": "科技感,未来主义,渐变配色,简约设计,高清,8K,专业设计,无文字",
-          "prompt_en": "futuristic tech aesthetic, gradient colors, minimalist design, high quality, 8K, professional design, no text",
-          "hf_model_id": "stabilityai/stable-diffusion-xl-base-1.0",
-          "free_api": true,
-          "api_endpoint": "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0",
-          "usage_note": "复制prompt到Haimeta平台使用"
-        }
-      ]
-    },
-    {
-      "id": "youtube_z5xUwG71lHA",
-      "event_name": "YouTube热门: Who needs AI? Incredible Hand-Painted Photo Edits!...",
-      "event_name_en": "YouTube Trending: Who needs AI? Incredible Hand-Painted Photo Edits!...",
-      "source": "youtube_trending",
-      "date": "2026-01-22",
-      "type": [
-        "用户行为",
-        "行业趋势"
-      ],
-      "priority": "中",
-      "regions": [
-        "全球"
-      ],
-      "target_audience": "AI创作者、设计师、科技爱好者",
-      "video_url": "https://youtube.com/watch?v=z5xUwG71lHA",
-      "channel": "BabsLab",
-      "alert_days": 0,
-      "marketing_copy": {
-        "zh": {
-          "headline": "📊 YouTube热门: Who needs AI? Incredible Hand-Painted Photo Edits!... | Haimeta AI创意工具",
-          "body": "抓住YouTube热门: Who needs AI? Incredible Hand-Painted Photo Edits!...的机会,用Haimeta AI工具创作专业内容。",
-          "cta": "立即体验 →",
-          "hashtags": [
-            "#AI设计",
-            "#YouTube热门: Who needs AI? Incredible Hand-Painted Photo Edits!...",
-            "#Haimeta"
-          ]
+            "id": "trend_sample_2",
+            "event_name": "趋势: AI工具大爆发",
+            "event_name_en": "AI Tools Boom",
+            "date": "2026-01-22",
+            "type": [
+                "行业趋势",
+                "竞品功能"
+            ],
+            "priority": "中",
+            "target_audience": "科技极客, 创业者",
+            "marketing_copy": {
+                "zh": {
+                    "headline": "AI时代已来，你跟上了吗？",
+                    "body": "盘点本周最火的5款AI生产力工具..."
+                },
+                "en": {
+                    "headline": "AI Revolution is Here",
+                    "body": "Top 5 AI tools you need to know this week..."
+                }
+            },
+            "image_prompts": [
+                {
+                    "prompt_zh": "未来感科技城市, 机器人与人类协作, 赛博朋克风格",
+                    "prompt_en": "Futuristic tech city, robot and human collaboration, cyberpunk style"
+                }
+            ]
         },
-        "en": {
-          "headline": "📊 YouTube Trending: Who needs AI? Incredible Hand-Painted Photo Edits!... | Haimeta AI Creative Tools",
-          "body": "Seize the opportunity with Haimeta AI tools.",
-          "cta": "Try Now →",
-          "hashtags": [
-            "#AIDesign",
-            "#YouTubeTrending:WhoneedsAI?IncredibleHand-PaintedPhotoEdits!...",
-            "#Haimeta"
-          ]
-        }
-      },
-      "image_prompts": [
         {
-          "model": "Stable Diffusion XL (Hugging Face)",
-          "style": "科技感,未来主义,渐变配色,简约设计",
-          "prompt_zh": "科技感,未来主义,渐变配色,简约设计,高清,8K,专业设计,无文字",
-          "prompt_en": "futuristic tech aesthetic, gradient colors, minimalist design, high quality, 8K, professional design, no text",
-          "hf_model_id": "stabilityai/stable-diffusion-xl-base-1.0",
-          "free_api": true,
-          "api_endpoint": "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0",
-          "usage_note": "复制prompt到Haimeta平台使用"
-        }
-      ]
-    },
-    {
-      "id": "youtube_deTfnS8VLNY",
-      "event_name": "YouTube热门: Tattoo Artist Selling AI Tattoos Receives Huge Bac...",
-      "event_name_en": "YouTube Trending: Tattoo Artist Selling AI Tattoos Receives Huge Bac...",
-      "source": "youtube_trending",
-      "date": "2026-01-22",
-      "type": [
-        "用户行为",
-        "行业趋势"
-      ],
-      "priority": "中",
-      "regions": [
-        "全球"
-      ],
-      "target_audience": "AI创作者、设计师、科技爱好者",
-      "video_url": "https://youtube.com/watch?v=deTfnS8VLNY",
-      "channel": "MARKIE",
-      "alert_days": 0,
-      "marketing_copy": {
-        "zh": {
-          "headline": "📊 YouTube热门: Tattoo Artist Selling AI Tattoos Receives Huge Bac... | Haimeta AI创意工具",
-          "body": "抓住YouTube热门: Tattoo Artist Selling AI Tattoos Receives Huge Bac...的机会,用Haimeta AI工具创作专业内容。",
-          "cta": "立即体验 →",
-          "hashtags": [
-            "#AI设计",
-            "#YouTube热门: Tattoo Artist Selling AI Tattoos Receives Huge Bac...",
-            "#Haimeta"
-          ]
+            "id": "auto_gen_3",
+            "event_name": "自动生成的热点 3",
+            "event_name_en": "Auto Generated Event 3",
+            "date": "2026-01-22",
+            "type": [
+                "热点事件"
+            ],
+            "priority": "低",
+            "target_audience": "大众",
+            "marketing_copy": {
+                "zh": {
+                    "headline": "热点 3 来了",
+                    "body": "这里是正文内容..."
+                },
+                "en": {
+                    "headline": "Event 3 is here",
+                    "body": "Content body..."
+                }
+            },
+            "image_prompts": [
+                {
+                    "prompt_zh": "抽象背景",
+                    "prompt_en": "Abstract background"
+                }
+            ]
         },
-        "en": {
-          "headline": "📊 YouTube Trending: Tattoo Artist Selling AI Tattoos Receives Huge Bac... | Haimeta AI Creative Tools",
-          "body": "Seize the opportunity with Haimeta AI tools.",
-          "cta": "Try Now →",
-          "hashtags": [
-            "#AIDesign",
-            "#YouTubeTrending:TattooArtistSellingAITattoosReceivesHugeBac...",
-            "#Haimeta"
-          ]
-        }
-      },
-      "image_prompts": [
         {
-          "model": "Stable Diffusion XL (Hugging Face)",
-          "style": "科技感,未来主义,渐变配色,简约设计",
-          "prompt_zh": "科技感,未来主义,渐变配色,简约设计,高清,8K,专业设计,无文字",
-          "prompt_en": "futuristic tech aesthetic, gradient colors, minimalist design, high quality, 8K, professional design, no text",
-          "hf_model_id": "stabilityai/stable-diffusion-xl-base-1.0",
-          "free_api": true,
-          "api_endpoint": "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0",
-          "usage_note": "复制prompt到Haimeta平台使用"
-        }
-      ]
-    },
-    {
-      "id": "youtube_sBHiE3HcrvY",
-      "event_name": "YouTube热门: Ai Art...",
-      "event_name_en": "YouTube Trending: Ai Art...",
-      "source": "youtube_trending",
-      "date": "2026-01-22",
-      "type": [
-        "用户行为",
-        "行业趋势"
-      ],
-      "priority": "中",
-      "regions": [
-        "全球"
-      ],
-      "target_audience": "AI创作者、设计师、科技爱好者",
-      "video_url": "https://youtube.com/watch?v=sBHiE3HcrvY",
-      "channel": "jikyru",
-      "alert_days": 0,
-      "marketing_copy": {
-        "zh": {
-          "headline": "📊 YouTube热门: Ai Art... | Haimeta AI创意工具",
-          "body": "抓住YouTube热门: Ai Art...的机会,用Haimeta AI工具创作专业内容。",
-          "cta": "立即体验 →",
-          "hashtags": [
-            "#AI设计",
-            "#YouTube热门: Ai Art...",
-            "#Haimeta"
-          ]
+            "id": "auto_gen_4",
+            "event_name": "自动生成的热点 4",
+            "event_name_en": "Auto Generated Event 4",
+            "date": "2026-01-22",
+            "type": [
+                "热点事件"
+            ],
+            "priority": "低",
+            "target_audience": "大众",
+            "marketing_copy": {
+                "zh": {
+                    "headline": "热点 4 来了",
+                    "body": "这里是正文内容..."
+                },
+                "en": {
+                    "headline": "Event 4 is here",
+                    "body": "Content body..."
+                }
+            },
+            "image_prompts": [
+                {
+                    "prompt_zh": "抽象背景",
+                    "prompt_en": "Abstract background"
+                }
+            ]
         },
-        "en": {
-          "headline": "📊 YouTube Trending: Ai Art... | Haimeta AI Creative Tools",
-          "body": "Seize the opportunity with Haimeta AI tools.",
-          "cta": "Try Now →",
-          "hashtags": [
-            "#AIDesign",
-            "#YouTubeTrending:AiArt...",
-            "#Haimeta"
-          ]
-        }
-      },
-      "image_prompts": [
         {
-          "model": "Stable Diffusion XL (Hugging Face)",
-          "style": "科技感,未来主义,渐变配色,简约设计",
-          "prompt_zh": "科技感,未来主义,渐变配色,简约设计,高清,8K,专业设计,无文字",
-          "prompt_en": "futuristic tech aesthetic, gradient colors, minimalist design, high quality, 8K, professional design, no text",
-          "hf_model_id": "stabilityai/stable-diffusion-xl-base-1.0",
-          "free_api": true,
-          "api_endpoint": "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0",
-          "usage_note": "复制prompt到Haimeta平台使用"
+            "id": "auto_gen_5",
+            "event_name": "自动生成的热点 5",
+            "event_name_en": "Auto Generated Event 5",
+            "date": "2026-01-22",
+            "type": [
+                "热点事件"
+            ],
+            "priority": "低",
+            "target_audience": "大众",
+            "marketing_copy": {
+                "zh": {
+                    "headline": "热点 5 来了",
+                    "body": "这里是正文内容..."
+                },
+                "en": {
+                    "headline": "Event 5 is here",
+                    "body": "Content body..."
+                }
+            },
+            "image_prompts": [
+                {
+                    "prompt_zh": "抽象背景",
+                    "prompt_en": "Abstract background"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "id": "youtube_4kMh9pfN5Wc",
-      "event_name": "YouTube热门: AI Art Lookbook (27 Photos) | Lingerie Design Stud...",
-      "event_name_en": "YouTube Trending: AI Art Lookbook (27 Photos) | Lingerie Design Stud...",
-      "source": "youtube_trending",
-      "date": "2026-01-22",
-      "type": [
-        "用户行为",
-        "行业趋势"
-      ],
-      "priority": "中",
-      "regions": [
-        "全球"
-      ],
-      "target_audience": "AI创作者、设计师、科技爱好者",
-      "video_url": "https://youtube.com/watch?v=4kMh9pfN5Wc",
-      "channel": "Dragonfly film ai art lookbook",
-      "alert_days": 0,
-      "marketing_copy": {
-        "zh": {
-          "headline": "📊 YouTube热门: AI Art Lookbook (27 Photos) | Lingerie Design Stud... | Haimeta AI创意工具",
-          "body": "抓住YouTube热门: AI Art Lookbook (27 Photos) | Lingerie Design Stud...的机会,用Haimeta AI工具创作专业内容。",
-          "cta": "立即体验 →",
-          "hashtags": [
-            "#AI设计",
-            "#YouTube热门: AI Art Lookbook (27 Photos) | Lingerie Design Stud...",
-            "#Haimeta"
-          ]
-        },
-        "en": {
-          "headline": "📊 YouTube Trending: AI Art Lookbook (27 Photos) | Lingerie Design Stud... | Haimeta AI Creative Tools",
-          "body": "Seize the opportunity with Haimeta AI tools.",
-          "cta": "Try Now →",
-          "hashtags": [
-            "#AIDesign",
-            "#YouTubeTrending:AIArtLookbook(27Photos)|LingerieDesignStud...",
-            "#Haimeta"
-          ]
-        }
-      },
-      "image_prompts": [
-        {
-          "model": "Stable Diffusion XL (Hugging Face)",
-          "style": "科技感,未来主义,渐变配色,简约设计",
-          "prompt_zh": "科技感,未来主义,渐变配色,简约设计,高清,8K,专业设计,无文字",
-          "prompt_en": "futuristic tech aesthetic, gradient colors, minimalist design, high quality, 8K, professional design, no text",
-          "hf_model_id": "stabilityai/stable-diffusion-xl-base-1.0",
-          "free_api": true,
-          "api_endpoint": "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0",
-          "usage_note": "复制prompt到Haimeta平台使用"
-        }
-      ]
-    },
-    {
-      "id": "youtube_PVGk_YwB2yM",
-      "event_name": "YouTube热门: Murugan(🔥🔥🔥)#shorts  #viralvideo #art #artwork #ai...",
-      "event_name_en": "YouTube Trending: Murugan(🔥🔥🔥)#shorts  #viralvideo #art #artwork #ai...",
-      "source": "youtube_trending",
-      "date": "2026-01-22",
-      "type": [
-        "用户行为",
-        "行业趋势"
-      ],
-      "priority": "中",
-      "regions": [
-        "全球"
-      ],
-      "target_audience": "AI创作者、设计师、科技爱好者",
-      "video_url": "https://youtube.com/watch?v=PVGk_YwB2yM",
-      "channel": "Art Vibe Studio",
-      "alert_days": 0,
-      "marketing_copy": {
-        "zh": {
-          "headline": "📊 YouTube热门: Murugan(🔥🔥🔥)#shorts  #viralvideo #art #artwork #ai... | Haimeta AI创意工具",
-          "body": "抓住YouTube热门: Murugan(🔥🔥🔥)#shorts  #viralvideo #art #artwork #ai...的机会,用Haimeta AI工具创作专业内容。",
-          "cta": "立即体验 →",
-          "hashtags": [
-            "#AI设计",
-            "#YouTube热门: Murugan(🔥🔥🔥)#shorts  #viralvideo #art #artwork #ai...",
-            "#Haimeta"
-          ]
-        },
-        "en": {
-          "headline": "📊 YouTube Trending: Murugan(🔥🔥🔥)#shorts  #viralvideo #art #artwork #ai... | Haimeta AI Creative Tools",
-          "body": "Seize the opportunity with Haimeta AI tools.",
-          "cta": "Try Now →",
-          "hashtags": [
-            "#AIDesign",
-            "#YouTubeTrending:Murugan(🔥🔥🔥)#shorts#viralvideo#art#artwork#ai...",
-            "#Haimeta"
-          ]
-        }
-      },
-      "image_prompts": [
-        {
-          "model": "Stable Diffusion XL (Hugging Face)",
-          "style": "科技感,未来主义,渐变配色,简约设计",
-          "prompt_zh": "科技感,未来主义,渐变配色,简约设计,高清,8K,专业设计,无文字",
-          "prompt_en": "futuristic tech aesthetic, gradient colors, minimalist design, high quality, 8K, professional design, no text",
-          "hf_model_id": "stabilityai/stable-diffusion-xl-base-1.0",
-          "free_api": true,
-          "api_endpoint": "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0",
-          "usage_note": "复制prompt到Haimeta平台使用"
-        }
-      ]
-    },
-    {
-      "id": "youtube_Tme9ldEUYqc",
-      "event_name": "YouTube热门: Designkit Helped increase My E-commerce Sales Beca...",
-      "event_name_en": "YouTube Trending: Designkit Helped increase My E-commerce Sales Beca...",
-      "source": "youtube_trending",
-      "date": "2026-01-22",
-      "type": [
-        "用户行为",
-        "行业趋势"
-      ],
-      "priority": "中",
-      "regions": [
-        "全球"
-      ],
-      "target_audience": "AI创作者、设计师、科技爱好者",
-      "video_url": "https://youtube.com/watch?v=Tme9ldEUYqc",
-      "channel": "NyesWorldTV",
-      "alert_days": 0,
-      "marketing_copy": {
-        "zh": {
-          "headline": "📊 YouTube热门: Designkit Helped increase My E-commerce Sales Beca... | Haimeta AI创意工具",
-          "body": "抓住YouTube热门: Designkit Helped increase My E-commerce Sales Beca...的机会,用Haimeta AI工具创作专业内容。",
-          "cta": "立即体验 →",
-          "hashtags": [
-            "#AI设计",
-            "#YouTube热门: Designkit Helped increase My E-commerce Sales Beca...",
-            "#Haimeta"
-          ]
-        },
-        "en": {
-          "headline": "📊 YouTube Trending: Designkit Helped increase My E-commerce Sales Beca... | Haimeta AI Creative Tools",
-          "body": "Seize the opportunity with Haimeta AI tools.",
-          "cta": "Try Now →",
-          "hashtags": [
-            "#AIDesign",
-            "#YouTubeTrending:DesignkitHelpedincreaseMyE-commerceSalesBeca...",
-            "#Haimeta"
-          ]
-        }
-      },
-      "image_prompts": [
-        {
-          "model": "Stable Diffusion XL (Hugging Face)",
-          "style": "科技感,未来主义,渐变配色,简约设计",
-          "prompt_zh": "科技感,未来主义,渐变配色,简约设计,高清,8K,专业设计,无文字",
-          "prompt_en": "futuristic tech aesthetic, gradient colors, minimalist design, high quality, 8K, professional design, no text",
-          "hf_model_id": "stabilityai/stable-diffusion-xl-base-1.0",
-          "free_api": true,
-          "api_endpoint": "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0",
-          "usage_note": "复制prompt到Haimeta平台使用"
-        }
-      ]
-    },
-    {
-      "id": "youtube_BKeqUuqFIx0",
-      "event_name": "YouTube热门: Ai disturbance ^_^ #art #artedigital #artcommunity...",
-      "event_name_en": "YouTube Trending: Ai disturbance ^_^ #art #artedigital #artcommunity...",
-      "source": "youtube_trending",
-      "date": "2026-01-22",
-      "type": [
-        "用户行为",
-        "行业趋势"
-      ],
-      "priority": "中",
-      "regions": [
-        "全球"
-      ],
-      "target_audience": "AI创作者、设计师、科技爱好者",
-      "video_url": "https://youtube.com/watch?v=BKeqUuqFIx0",
-      "channel": "ꔫ  ruii",
-      "alert_days": 0,
-      "marketing_copy": {
-        "zh": {
-          "headline": "📊 YouTube热门: Ai disturbance ^_^ #art #artedigital #artcommunity... | Haimeta AI创意工具",
-          "body": "抓住YouTube热门: Ai disturbance ^_^ #art #artedigital #artcommunity...的机会,用Haimeta AI工具创作专业内容。",
-          "cta": "立即体验 →",
-          "hashtags": [
-            "#AI设计",
-            "#YouTube热门: Ai disturbance ^_^ #art #artedigital #artcommunity...",
-            "#Haimeta"
-          ]
-        },
-        "en": {
-          "headline": "📊 YouTube Trending: Ai disturbance ^_^ #art #artedigital #artcommunity... | Haimeta AI Creative Tools",
-          "body": "Seize the opportunity with Haimeta AI tools.",
-          "cta": "Try Now →",
-          "hashtags": [
-            "#AIDesign",
-            "#YouTubeTrending:Aidisturbance^_^#art#artedigital#artcommunity...",
-            "#Haimeta"
-          ]
-        }
-      },
-      "image_prompts": [
-        {
-          "model": "Stable Diffusion XL (Hugging Face)",
-          "style": "科技感,未来主义,渐变配色,简约设计",
-          "prompt_zh": "科技感,未来主义,渐变配色,简约设计,高清,8K,专业设计,无文字",
-          "prompt_en": "futuristic tech aesthetic, gradient colors, minimalist design, high quality, 8K, professional design, no text",
-          "hf_model_id": "stabilityai/stable-diffusion-xl-base-1.0",
-          "free_api": true,
-          "api_endpoint": "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0",
-          "usage_note": "复制prompt到Haimeta平台使用"
-        }
-      ]
-    },
-    {
-      "id": "youtube_jmn7XE4Sxgs",
-      "event_name": "YouTube热门: Everything Will Be Okay 🌈✨#art #handwriting #short...",
-      "event_name_en": "YouTube Trending: Everything Will Be Okay 🌈✨#art #handwriting #short...",
-      "source": "youtube_trending",
-      "date": "2026-01-22",
-      "type": [
-        "用户行为",
-        "行业趋势"
-      ],
-      "priority": "中",
-      "regions": [
-        "全球"
-      ],
-      "target_audience": "AI创作者、设计师、科技爱好者",
-      "video_url": "https://youtube.com/watch?v=jmn7XE4Sxgs",
-      "channel": "Isabella ShadeS2",
-      "alert_days": 0,
-      "marketing_copy": {
-        "zh": {
-          "headline": "📊 YouTube热门: Everything Will Be Okay 🌈✨#art #handwriting #short... | Haimeta AI创意工具",
-          "body": "抓住YouTube热门: Everything Will Be Okay 🌈✨#art #handwriting #short...的机会,用Haimeta AI工具创作专业内容。",
-          "cta": "立即体验 →",
-          "hashtags": [
-            "#AI设计",
-            "#YouTube热门: Everything Will Be Okay 🌈✨#art #handwriting #short...",
-            "#Haimeta"
-          ]
-        },
-        "en": {
-          "headline": "📊 YouTube Trending: Everything Will Be Okay 🌈✨#art #handwriting #short... | Haimeta AI Creative Tools",
-          "body": "Seize the opportunity with Haimeta AI tools.",
-          "cta": "Try Now →",
-          "hashtags": [
-            "#AIDesign",
-            "#YouTubeTrending:EverythingWillBeOkay🌈✨#art#handwriting#short...",
-            "#Haimeta"
-          ]
-        }
-      },
-      "image_prompts": [
-        {
-          "model": "Stable Diffusion XL (Hugging Face)",
-          "style": "科技感,未来主义,渐变配色,简约设计",
-          "prompt_zh": "科技感,未来主义,渐变配色,简约设计,高清,8K,专业设计,无文字",
-          "prompt_en": "futuristic tech aesthetic, gradient colors, minimalist design, high quality, 8K, professional design, no text",
-          "hf_model_id": "stabilityai/stable-diffusion-xl-base-1.0",
-          "free_api": true,
-          "api_endpoint": "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0",
-          "usage_note": "复制prompt到Haimeta平台使用"
-        }
-      ]
-    },
-    {
-      "id": "youtube_hWa65xa6T90",
-      "event_name": "YouTube热门: AI Dance Video - Beauty’s Not Just For The Young -...",
-      "event_name_en": "YouTube Trending: AI Dance Video - Beauty’s Not Just For The Young -...",
-      "source": "youtube_trending",
-      "date": "2026-01-22",
-      "type": [
-        "用户行为",
-        "行业趋势"
-      ],
-      "priority": "中",
-      "regions": [
-        "全球"
-      ],
-      "target_audience": "AI创作者、设计师、科技爱好者",
-      "video_url": "https://youtube.com/watch?v=hWa65xa6T90",
-      "channel": "Kelly Boesch AI Art",
-      "alert_days": 0,
-      "marketing_copy": {
-        "zh": {
-          "headline": "📊 YouTube热门: AI Dance Video - Beauty’s Not Just For The Young -... | Haimeta AI创意工具",
-          "body": "抓住YouTube热门: AI Dance Video - Beauty’s Not Just For The Young -...的机会,用Haimeta AI工具创作专业内容。",
-          "cta": "立即体验 →",
-          "hashtags": [
-            "#AI设计",
-            "#YouTube热门: AI Dance Video - Beauty’s Not Just For The Young -...",
-            "#Haimeta"
-          ]
-        },
-        "en": {
-          "headline": "📊 YouTube Trending: AI Dance Video - Beauty’s Not Just For The Young -... | Haimeta AI Creative Tools",
-          "body": "Seize the opportunity with Haimeta AI tools.",
-          "cta": "Try Now →",
-          "hashtags": [
-            "#AIDesign",
-            "#YouTubeTrending:AIDanceVideo-Beauty’sNotJustForTheYoung-...",
-            "#Haimeta"
-          ]
-        }
-      },
-      "image_prompts": [
-        {
-          "model": "Stable Diffusion XL (Hugging Face)",
-          "style": "科技感,未来主义,渐变配色,简约设计",
-          "prompt_zh": "科技感,未来主义,渐变配色,简约设计,高清,8K,专业设计,无文字",
-          "prompt_en": "futuristic tech aesthetic, gradient colors, minimalist design, high quality, 8K, professional design, no text",
-          "hf_model_id": "stabilityai/stable-diffusion-xl-base-1.0",
-          "free_api": true,
-          "api_endpoint": "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0",
-          "usage_note": "复制prompt到Haimeta平台使用"
-        }
-      ]
-    },
-    {
-      "id": "youtube_WFxRXNqhfh4",
-      "event_name": "YouTube热门: wow 😲 so amazing cube monster 😍🥰...",
-      "event_name_en": "YouTube Trending: wow 😲 so amazing cube monster 😍🥰...",
-      "source": "youtube_trending",
-      "date": "2026-01-22",
-      "type": [
-        "用户行为",
-        "行业趋势"
-      ],
-      "priority": "中",
-      "regions": [
-        "全球"
-      ],
-      "target_audience": "AI创作者、设计师、科技爱好者",
-      "video_url": "https://youtube.com/watch?v=WFxRXNqhfh4",
-      "channel": "My Lovely Horror Show",
-      "alert_days": 0,
-      "marketing_copy": {
-        "zh": {
-          "headline": "📊 YouTube热门: wow 😲 so amazing cube monster 😍🥰... | Haimeta AI创意工具",
-          "body": "抓住YouTube热门: wow 😲 so amazing cube monster 😍🥰...的机会,用Haimeta AI工具创作专业内容。",
-          "cta": "立即体验 →",
-          "hashtags": [
-            "#AI设计",
-            "#YouTube热门: wow 😲 so amazing cube monster 😍🥰...",
-            "#Haimeta"
-          ]
-        },
-        "en": {
-          "headline": "📊 YouTube Trending: wow 😲 so amazing cube monster 😍🥰... | Haimeta AI Creative Tools",
-          "body": "Seize the opportunity with Haimeta AI tools.",
-          "cta": "Try Now →",
-          "hashtags": [
-            "#AIDesign",
-            "#YouTubeTrending:wow😲soamazingcubemonster😍🥰...",
-            "#Haimeta"
-          ]
-        }
-      },
-      "image_prompts": [
-        {
-          "model": "Stable Diffusion XL (Hugging Face)",
-          "style": "科技感,未来主义,渐变配色,简约设计",
-          "prompt_zh": "科技感,未来主义,渐变配色,简约设计,高清,8K,专业设计,无文字",
-          "prompt_en": "futuristic tech aesthetic, gradient colors, minimalist design, high quality, 8K, professional design, no text",
-          "hf_model_id": "stabilityai/stable-diffusion-xl-base-1.0",
-          "free_api": true,
-          "api_endpoint": "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0",
-          "usage_note": "复制prompt到Haimeta平台使用"
-        }
-      ]
-    },
-    {
-      "id": "youtube_SBQKQiHEHkY",
-      "event_name": "YouTube热门: can you make a character design without AI AND dra...",
-      "event_name_en": "YouTube Trending: can you make a character design without AI AND dra...",
-      "source": "youtube_trending",
-      "date": "2026-01-22",
-      "type": [
-        "用户行为",
-        "行业趋势"
-      ],
-      "priority": "中",
-      "regions": [
-        "全球"
-      ],
-      "target_audience": "AI创作者、设计师、科技爱好者",
-      "video_url": "https://youtube.com/watch?v=SBQKQiHEHkY",
-      "channel": "inkiio",
-      "alert_days": 0,
-      "marketing_copy": {
-        "zh": {
-          "headline": "📊 YouTube热门: can you make a character design without AI AND dra... | Haimeta AI创意工具",
-          "body": "抓住YouTube热门: can you make a character design without AI AND dra...的机会,用Haimeta AI工具创作专业内容。",
-          "cta": "立即体验 →",
-          "hashtags": [
-            "#AI设计",
-            "#YouTube热门: can you make a character design without AI AND dra...",
-            "#Haimeta"
-          ]
-        },
-        "en": {
-          "headline": "📊 YouTube Trending: can you make a character design without AI AND dra... | Haimeta AI Creative Tools",
-          "body": "Seize the opportunity with Haimeta AI tools.",
-          "cta": "Try Now →",
-          "hashtags": [
-            "#AIDesign",
-            "#YouTubeTrending:canyoumakeacharacterdesignwithoutAIANDdra...",
-            "#Haimeta"
-          ]
-        }
-      },
-      "image_prompts": [
-        {
-          "model": "Stable Diffusion XL (Hugging Face)",
-          "style": "科技感,未来主义,渐变配色,简约设计",
-          "prompt_zh": "科技感,未来主义,渐变配色,简约设计,高清,8K,专业设计,无文字",
-          "prompt_en": "futuristic tech aesthetic, gradient colors, minimalist design, high quality, 8K, professional design, no text",
-          "hf_model_id": "stabilityai/stable-diffusion-xl-base-1.0",
-          "free_api": true,
-          "api_endpoint": "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0",
-          "usage_note": "复制prompt到Haimeta平台使用"
-        }
-      ]
-    },
-    {
-      "id": "youtube_XKDA8GaAIvM",
-      "event_name": "YouTube热门: Colour Mixing Art #shorts #funny #viral #ai #trend...",
-      "event_name_en": "YouTube Trending: Colour Mixing Art #shorts #funny #viral #ai #trend...",
-      "source": "youtube_trending",
-      "date": "2026-01-22",
-      "type": [
-        "用户行为",
-        "行业趋势"
-      ],
-      "priority": "中",
-      "regions": [
-        "全球"
-      ],
-      "target_audience": "AI创作者、设计师、科技爱好者",
-      "video_url": "https://youtube.com/watch?v=XKDA8GaAIvM",
-      "channel": "Vishu Creative Idea's ",
-      "alert_days": 0,
-      "marketing_copy": {
-        "zh": {
-          "headline": "📊 YouTube热门: Colour Mixing Art #shorts #funny #viral #ai #trend... | Haimeta AI创意工具",
-          "body": "抓住YouTube热门: Colour Mixing Art #shorts #funny #viral #ai #trend...的机会,用Haimeta AI工具创作专业内容。",
-          "cta": "立即体验 →",
-          "hashtags": [
-            "#AI设计",
-            "#YouTube热门: Colour Mixing Art #shorts #funny #viral #ai #trend...",
-            "#Haimeta"
-          ]
-        },
-        "en": {
-          "headline": "📊 YouTube Trending: Colour Mixing Art #shorts #funny #viral #ai #trend... | Haimeta AI Creative Tools",
-          "body": "Seize the opportunity with Haimeta AI tools.",
-          "cta": "Try Now →",
-          "hashtags": [
-            "#AIDesign",
-            "#YouTubeTrending:ColourMixingArt#shorts#funny#viral#ai#trend...",
-            "#Haimeta"
-          ]
-        }
-      },
-      "image_prompts": [
-        {
-          "model": "Stable Diffusion XL (Hugging Face)",
-          "style": "科技感,未来主义,渐变配色,简约设计",
-          "prompt_zh": "科技感,未来主义,渐变配色,简约设计,高清,8K,专业设计,无文字",
-          "prompt_en": "futuristic tech aesthetic, gradient colors, minimalist design, high quality, 8K, professional design, no text",
-          "hf_model_id": "stabilityai/stable-diffusion-xl-base-1.0",
-          "free_api": true,
-          "api_endpoint": "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0",
-          "usage_note": "复制prompt到Haimeta平台使用"
-        }
-      ]
-    },
-    {
-      "id": "youtube_HOLv8g0fpyI",
-      "event_name": "YouTube热门: AI Art Short - DaVinci  - 4k...",
-      "event_name_en": "YouTube Trending: AI Art Short - DaVinci  - 4k...",
-      "source": "youtube_trending",
-      "date": "2026-01-22",
-      "type": [
-        "用户行为",
-        "行业趋势"
-      ],
-      "priority": "中",
-      "regions": [
-        "全球"
-      ],
-      "target_audience": "AI创作者、设计师、科技爱好者",
-      "video_url": "https://youtube.com/watch?v=HOLv8g0fpyI",
-      "channel": "Kelly Boesch AI Art",
-      "alert_days": 0,
-      "marketing_copy": {
-        "zh": {
-          "headline": "📊 YouTube热门: AI Art Short - DaVinci  - 4k... | Haimeta AI创意工具",
-          "body": "抓住YouTube热门: AI Art Short - DaVinci  - 4k...的机会,用Haimeta AI工具创作专业内容。",
-          "cta": "立即体验 →",
-          "hashtags": [
-            "#AI设计",
-            "#YouTube热门: AI Art Short - DaVinci  - 4k...",
-            "#Haimeta"
-          ]
-        },
-        "en": {
-          "headline": "📊 YouTube Trending: AI Art Short - DaVinci  - 4k... | Haimeta AI Creative Tools",
-          "body": "Seize the opportunity with Haimeta AI tools.",
-          "cta": "Try Now →",
-          "hashtags": [
-            "#AIDesign",
-            "#YouTubeTrending:AIArtShort-DaVinci-4k...",
-            "#Haimeta"
-          ]
-        }
-      },
-      "image_prompts": [
-        {
-          "model": "Stable Diffusion XL (Hugging Face)",
-          "style": "科技感,未来主义,渐变配色,简约设计",
-          "prompt_zh": "科技感,未来主义,渐变配色,简约设计,高清,8K,专业设计,无文字",
-          "prompt_en": "futuristic tech aesthetic, gradient colors, minimalist design, high quality, 8K, professional design, no text",
-          "hf_model_id": "stabilityai/stable-diffusion-xl-base-1.0",
-          "free_api": true,
-          "api_endpoint": "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0",
-          "usage_note": "复制prompt到Haimeta平台使用"
-        }
-      ]
-    },
-    {
-      "id": "youtube_Yol51G6PDbA",
-      "event_name": "YouTube热门: #art #trending #viral short #artist #artificialint...",
-      "event_name_en": "YouTube Trending: #art #trending #viral short #artist #artificialint...",
-      "source": "youtube_trending",
-      "date": "2026-01-22",
-      "type": [
-        "用户行为",
-        "行业趋势"
-      ],
-      "priority": "中",
-      "regions": [
-        "全球"
-      ],
-      "target_audience": "AI创作者、设计师、科技爱好者",
-      "video_url": "https://youtube.com/watch?v=Yol51G6PDbA",
-      "channel": "Baraiya Vijay",
-      "alert_days": 0,
-      "marketing_copy": {
-        "zh": {
-          "headline": "📊 YouTube热门: #art #trending #viral short #artist #artificialint... | Haimeta AI创意工具",
-          "body": "抓住YouTube热门: #art #trending #viral short #artist #artificialint...的机会,用Haimeta AI工具创作专业内容。",
-          "cta": "立即体验 →",
-          "hashtags": [
-            "#AI设计",
-            "#YouTube热门: #art #trending #viral short #artist #artificialint...",
-            "#Haimeta"
-          ]
-        },
-        "en": {
-          "headline": "📊 YouTube Trending: #art #trending #viral short #artist #artificialint... | Haimeta AI Creative Tools",
-          "body": "Seize the opportunity with Haimeta AI tools.",
-          "cta": "Try Now →",
-          "hashtags": [
-            "#AIDesign",
-            "#YouTubeTrending:#art#trending#viralshort#artist#artificialint...",
-            "#Haimeta"
-          ]
-        }
-      },
-      "image_prompts": [
-        {
-          "model": "Stable Diffusion XL (Hugging Face)",
-          "style": "科技感,未来主义,渐变配色,简约设计",
-          "prompt_zh": "科技感,未来主义,渐变配色,简约设计,高清,8K,专业设计,无文字",
-          "prompt_en": "futuristic tech aesthetic, gradient colors, minimalist design, high quality, 8K, professional design, no text",
-          "hf_model_id": "stabilityai/stable-diffusion-xl-base-1.0",
-          "free_api": true,
-          "api_endpoint": "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0",
-          "usage_note": "复制prompt到Haimeta平台使用"
-        }
-      ]
-    },
-    {
-      "id": "competitor_pollo_2026-01-22",
-      "event_name": "Pollo可能有新动态",
-      "event_name_en": "Pollo Potential Updates",
-      "source": "competitor_updates",
-      "date": "2026-01-22",
-      "type": [
-        "竞品功能"
-      ],
-      "priority": "中",
-      "regions": [
-        "全球"
-      ],
-      "target_audience": "AI工具用户、竞品分析师",
-      "competitor_name": "Pollo",
-      "alert_days": 0,
-      "marketing_copy": {
-        "zh": {
-          "headline": "⚡ 竞品动态: Pollo可能有新动态",
-          "body": "关注竞品最新功能,Haimeta持续创新,保持领先优势。",
-          "cta": "立即体验 →",
-          "hashtags": [
-            "#AI设计",
-            "#Pollo可能有新动态",
-            "#Haimeta"
-          ]
-        },
-        "en": {
-          "headline": "⚡ Competitor Alert: Pollo Potential Updates",
-          "body": "Stay ahead with Haimeta's continuous innovation.",
-          "cta": "Try Now →",
-          "hashtags": [
-            "#AIDesign",
-            "#PolloPotentialUpdates",
-            "#Haimeta"
-          ]
-        }
-      },
-      "image_prompts": [
-        {
-          "model": "Stable Diffusion XL (Hugging Face)",
-          "style": "科技感,对比分析图,专业商务风格",
-          "prompt_zh": "科技感,对比分析图,专业商务风格,高清,8K,专业设计,无文字",
-          "prompt_en": "tech aesthetic, comparison chart, professional business style, high quality, 8K, professional design, no text",
-          "hf_model_id": "stabilityai/stable-diffusion-xl-base-1.0",
-          "free_api": true,
-          "api_endpoint": "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0",
-          "usage_note": "复制prompt到Haimeta平台使用"
-        }
-      ]
-    },
-    {
-      "id": "competitor_higgsfield_2026-01-22",
-      "event_name": "Higgsfield可能有新动态",
-      "event_name_en": "Higgsfield Potential Updates",
-      "source": "competitor_updates",
-      "date": "2026-01-22",
-      "type": [
-        "竞品功能"
-      ],
-      "priority": "中",
-      "regions": [
-        "全球"
-      ],
-      "target_audience": "AI工具用户、竞品分析师",
-      "competitor_name": "Higgsfield",
-      "alert_days": 0,
-      "marketing_copy": {
-        "zh": {
-          "headline": "⚡ 竞品动态: Higgsfield可能有新动态",
-          "body": "关注竞品最新功能,Haimeta持续创新,保持领先优势。",
-          "cta": "立即体验 →",
-          "hashtags": [
-            "#AI设计",
-            "#Higgsfield可能有新动态",
-            "#Haimeta"
-          ]
-        },
-        "en": {
-          "headline": "⚡ Competitor Alert: Higgsfield Potential Updates",
-          "body": "Stay ahead with Haimeta's continuous innovation.",
-          "cta": "Try Now →",
-          "hashtags": [
-            "#AIDesign",
-            "#HiggsfieldPotentialUpdates",
-            "#Haimeta"
-          ]
-        }
-      },
-      "image_prompts": [
-        {
-          "model": "Stable Diffusion XL (Hugging Face)",
-          "style": "科技感,对比分析图,专业商务风格",
-          "prompt_zh": "科技感,对比分析图,专业商务风格,高清,8K,专业设计,无文字",
-          "prompt_en": "tech aesthetic, comparison chart, professional business style, high quality, 8K, professional design, no text",
-          "hf_model_id": "stabilityai/stable-diffusion-xl-base-1.0",
-          "free_api": true,
-          "api_endpoint": "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0",
-          "usage_note": "复制prompt到Haimeta平台使用"
-        }
-      ]
-    }
-  ]
+    ]
 }
