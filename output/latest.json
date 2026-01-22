@@ -3,140 +3,146 @@
     "total_events": 5,
     "events": [
         {
-            "id": "holiday_sample_1",
-            "event_name": "示例: 国际咖啡日",
-            "event_name_en": "International Coffee Day",
-            "date": "2026-01-22",
+            "id": "evt_20224",
+            "date": "2026-02-08",
+            "event_name": "超级碗",
+            "event_name_en": "Super Bowl",
+            "type": [
+                "热点事件"
+            ],
+            "priority": "高",
+            "target_audience": "大众, 节日消费者",
+            "marketing_copy": {
+                "zh": {
+                    "headline": "🔥 超级碗 倒计时 16 天",
+                    "body": "建议提前布局 超级碗 营销活动..."
+                },
+                "en": {
+                    "headline": "Upcoming: Super Bowl in 16 days",
+                    "body": "Prepare your campaign for Super Bowl..."
+                }
+            },
+            "image_prompts": [
+                {
+                    "prompt_zh": "超级碗 主题海报, 节日氛围",
+                    "prompt_en": "Super Bowl theme poster, 8k"
+                }
+            ],
+            "timing_suggestion": "建议立即跟进"
+        },
+        {
+            "id": "evt_53747",
+            "date": "2026-02-14",
+            "event_name": "情人节",
+            "event_name_en": "Valentine's Day",
+            "type": [
+                "节日营销",
+                "用户行为"
+            ],
+            "priority": "高",
+            "target_audience": "大众, 节日消费者",
+            "marketing_copy": {
+                "zh": {
+                    "headline": "🔥 情人节 倒计时 22 天",
+                    "body": "建议提前布局 情人节 营销活动..."
+                },
+                "en": {
+                    "headline": "Upcoming: Valentine's Day in 22 days",
+                    "body": "Prepare your campaign for Valentine's Day..."
+                }
+            },
+            "image_prompts": [
+                {
+                    "prompt_zh": "情人节 主题海报, 节日氛围",
+                    "prompt_en": "Valentine's Day theme poster, 8k"
+                }
+            ],
+            "timing_suggestion": "建议立即跟进"
+        },
+        {
+            "id": "evt_41517",
+            "date": "2026-02-17",
+            "event_name": "春节 (Chinese New Year)",
+            "event_name_en": "Chinese New Year",
             "type": [
                 "节日营销"
             ],
             "priority": "高",
-            "target_audience": "咖啡爱好者, 上班族",
+            "target_audience": "大众, 节日消费者",
             "marketing_copy": {
                 "zh": {
-                    "headline": "☕️ 今天是国际咖啡日，来一杯续命！",
-                    "body": "用一杯香浓咖啡开启高效工作日..."
+                    "headline": "🔥 春节 (Chinese New Year) 倒计时 25 天",
+                    "body": "建议提前布局 春节 (Chinese New Year) 营销活动..."
                 },
                 "en": {
-                    "headline": "Celebrate International Coffee Day!",
-                    "body": "Boost your day with a cup of joy..."
+                    "headline": "Upcoming: Chinese New Year in 25 days",
+                    "body": "Prepare your campaign for Chinese New Year..."
                 }
             },
             "image_prompts": [
                 {
-                    "prompt_zh": "一杯热气腾腾的拿铁, 阳光洒在木桌上, 高清摄影",
-                    "prompt_en": "Hot latte on wooden table, sunlight, photorealistic, 8k"
+                    "prompt_zh": "春节 (Chinese New Year) 主题海报, 节日氛围",
+                    "prompt_en": "Chinese New Year theme poster, 8k"
                 }
-            ]
+            ],
+            "timing_suggestion": "建议立即跟进"
         },
         {
-            "id": "trend_sample_2",
-            "event_name": "趋势: AI工具大爆发",
-            "event_name_en": "AI Tools Boom",
-            "date": "2026-01-22",
+            "id": "evt_89387",
+            "date": "2026-03-08",
+            "event_name": "妇女节",
+            "event_name_en": "International Women's Day",
             "type": [
-                "行业趋势",
-                "竞品功能"
+                "节日营销"
+            ],
+            "priority": "高",
+            "target_audience": "大众, 节日消费者",
+            "marketing_copy": {
+                "zh": {
+                    "headline": "🔥 妇女节 倒计时 44 天",
+                    "body": "建议提前布局 妇女节 营销活动..."
+                },
+                "en": {
+                    "headline": "Upcoming: International Women's Day in 44 days",
+                    "body": "Prepare your campaign for International Women's Day..."
+                }
+            },
+            "image_prompts": [
+                {
+                    "prompt_zh": "妇女节 主题海报, 节日氛围",
+                    "prompt_en": "International Women's Day theme poster, 8k"
+                }
+            ],
+            "timing_suggestion": "建议立即跟进"
+        },
+        {
+            "id": "evt_91584",
+            "date": "2026-01-22",
+            "event_name": "YouTube热榜: Kodak Black - Endles...",
+            "event_name_en": "Kodak Black - Endless Nights feat. Gunna, Roddy Ricch, French Montana [Official Music Video]",
+            "type": [
+                "用户行为",
+                "热点事件"
             ],
             "priority": "中",
-            "target_audience": "科技极客, 创业者",
+            "target_audience": "视频观众, 社交媒体用户",
             "marketing_copy": {
                 "zh": {
-                    "headline": "AI时代已来，你跟上了吗？",
-                    "body": "盘点本周最火的5款AI生产力工具..."
+                    "headline": "热点追踪: Kodak Black - E",
+                    "body": "YouTube 热门视频趋势，来自频道 Kodak Black"
                 },
                 "en": {
-                    "headline": "AI Revolution is Here",
-                    "body": "Top 5 AI tools you need to know this week..."
+                    "headline": "Trending: Kodak Black - Endless Nights f",
+                    "body": "Viral video from Kodak Black"
                 }
             },
             "image_prompts": [
                 {
-                    "prompt_zh": "未来感科技城市, 机器人与人类协作, 赛博朋克风格",
-                    "prompt_en": "Futuristic tech city, robot and human collaboration, cyberpunk style"
+                    "prompt_zh": "社交媒体热门风格, 现代感",
+                    "prompt_en": "Trending on social media, modern style"
                 }
-            ]
-        },
-        {
-            "id": "auto_gen_3",
-            "event_name": "自动生成的热点 3",
-            "event_name_en": "Auto Generated Event 3",
-            "date": "2026-01-22",
-            "type": [
-                "热点事件"
             ],
-            "priority": "低",
-            "target_audience": "大众",
-            "marketing_copy": {
-                "zh": {
-                    "headline": "热点 3 来了",
-                    "body": "这里是正文内容..."
-                },
-                "en": {
-                    "headline": "Event 3 is here",
-                    "body": "Content body..."
-                }
-            },
-            "image_prompts": [
-                {
-                    "prompt_zh": "抽象背景",
-                    "prompt_en": "Abstract background"
-                }
-            ]
-        },
-        {
-            "id": "auto_gen_4",
-            "event_name": "自动生成的热点 4",
-            "event_name_en": "Auto Generated Event 4",
-            "date": "2026-01-22",
-            "type": [
-                "热点事件"
-            ],
-            "priority": "低",
-            "target_audience": "大众",
-            "marketing_copy": {
-                "zh": {
-                    "headline": "热点 4 来了",
-                    "body": "这里是正文内容..."
-                },
-                "en": {
-                    "headline": "Event 4 is here",
-                    "body": "Content body..."
-                }
-            },
-            "image_prompts": [
-                {
-                    "prompt_zh": "抽象背景",
-                    "prompt_en": "Abstract background"
-                }
-            ]
-        },
-        {
-            "id": "auto_gen_5",
-            "event_name": "自动生成的热点 5",
-            "event_name_en": "Auto Generated Event 5",
-            "date": "2026-01-22",
-            "type": [
-                "热点事件"
-            ],
-            "priority": "低",
-            "target_audience": "大众",
-            "marketing_copy": {
-                "zh": {
-                    "headline": "热点 5 来了",
-                    "body": "这里是正文内容..."
-                },
-                "en": {
-                    "headline": "Event 5 is here",
-                    "body": "Content body..."
-                }
-            },
-            "image_prompts": [
-                {
-                    "prompt_zh": "抽象背景",
-                    "prompt_en": "Abstract background"
-                }
-            ]
+            "timing_suggestion": "保持关注"
         }
     ]
 }
